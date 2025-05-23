@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Ultimate CS Test</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <script defer src="assets/js/animation-typewriter.js"></script>
+    </head>
+<body>
+    <div class="page-container">
+
+        
+        <section id="home" class="active">
+            <h1 class="shuffle-text">THE ULTIMATE CS TEST</h1>
+            
+            <img src="assets/img/homepage.gif" alt="homepage">
+
+            <button id="start-btn" class="quiz-button">ENTER</button>
+        </section>
+        
+        
+        <section id="levels">
+            <h2 class="typewriter">Choose your level</h2>
+            
+            <img src="assets/img/levels.gif" alt="levels">
+            
+            <div>
+                <button class="level-btn quiz-button" data-level="easy">EASY</button>
+                <button class="level-btn quiz-button" data-level="medium">MEDIUM</button>
+                <button class="level-btn quiz-button" data-level="hard">HARD</button>
+            </div>
+        </section>
+
+        
+        <section id="ready">
+            <h2 class="typewriter">ARE YOU READY?</h2>
+
+            <div>
+                <button id="ready-yes" class="quiz-button">YES</button>
+                <button id="ready-no" class="quiz-button">NO</button>
+            </div>
+        </section>
+
+        
+        <section id="docs">
+            <h2 class="typewriter">IT'S TIME TO READ YOUR DOCUMENTATIONS...</h2>
+
+            <div class="docs-links">
+                <button class="quiz-button"><a href="https://developer.mozilla.org/" target="_blank">MDN</a></button>
+                <button class="quiz-button"><a href="https://www.w3schools.com/" target="_blank">W3Schools</a></button>
+                <button class="quiz-button"><a href="https://openclassrooms.com/" target="_blank">OpenClassrooms</a></button>
+            </div>
+
+            <button id="back-to-levels" class="quiz-button">Back</button>
+        </section>
+
+        
+        <section id="quiz">
+            <div id="quiz-text"></div>
+            <div id="quiz-choices"></div>
+        </section>
+
+        
+        <section id="result">
+            <h2 class="typewriter">Quiz Completed!</h2>
+            <div id="result-text"></div>
+        </section>
+
+        <footer>
+            <p>© 2025 Nihad E. - Tous droits réservés.</p>
+        </footer>
+    
+    </div>
+
+    <script src="assets/js/animation-shuffle.js"></script>
+    <script src="assets/js/quiz.js"></script>
+
+</body>
+</html>
